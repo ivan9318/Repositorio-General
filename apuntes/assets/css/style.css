@@ -1,0 +1,66 @@
+.salon{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#ivan{
+    color: yellow;
+    font-size: large;
+    background-color: aqua;
+}
+#generation{
+    color: red;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#gus,#sandra{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 40px ;
+}
+
+
+.paquete{
+    padding: 20px;
+    border: 5px solid brown;
+    margin:  15px;
+}
+.paquete2{
+    padding: 20px;
+    border: 5px solid brown;
+    margin:  15px;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#Facebook{
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#ig{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#ig{
+    background-color: rosybrown;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#tw{
+    background-color:aqua;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}

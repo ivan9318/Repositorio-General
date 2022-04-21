@@ -1,0 +1,34 @@
+body{
+    background-color: beige;
+}
+.cajaFlotante{
+    margin: 40px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.cabecera{
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+.contenido{
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+.botones{
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+#aceptar{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+#cancelar{
+    background-color: grey;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+}

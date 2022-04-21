@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas,formularios y anclajes</title>
+    <link rel="stylesheet" href="/tablas/css/css.css">
+</head>
+
+<body>
+    <h2>Formulario :3</h2>
+    <a href="#modelado"><button>modelado</button></a>
+    <h1 id="formulario">Mi primer formulario</h1>
+    <fieldset>
+        
+        <div class="legend">
+            <legend>Formulario</legend>
+        </div>
+        <form action="/tablas/datos.html">
+            <label>Este es un boton simple</label>
+            <input type="button">
+            <!--Este es un boton-->
+            <br>
+            <input type="checkbox">
+            <br>
+            <input type="date">
+            <br>
+            <br>
+            <label>Agregar aqui ccorreo</label>
+            <input type="email">
+            <br>
+            <br>
+            <label for="password">Agregar aqui tu nombre</label>
+            <input type="password">
+            <br>
+            <br>
+            <input type="number">
+            <br>
+            <br>
+            <label>Sube un archivo</label>
+            <br>
+            <input type="file">
+            <br>
+            <br>
+            <input type="radio">
+            <br>
+            <br>
+            <input type="range">
+            <br>
+            <br>
+            <label>Ingresa tu numero de telefono</label>
+            <input type="tel" placeholder="+(lada)(numero telefono)" required>
+            <br>
+            <br>
+            <input type="time">
+            <br>
+            <br>
+            <label>Deja tus comentarios</label>
+            <textarea placeholder="Quejas dudas y/o sugerencias">
+
+            </textarea>
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Tortas</label>
+            <input type="checkbox" value="Tortas">
+            <br>
+            <label>Tacos</label>
+            <input type="checkbox" value="Tacos">
+            <br>
+            <label>Hamburguesas</label>
+            <input type="checkbox" value="Hamburguesas">
+            <br>
+        </form>
+
+
+    </fieldset>
+    <h1 id="Formulario">Mi primer tabla</h1>
+    <table id="tabla" align="center">Mi primer tabla</th>
+        <h1>Aquí empieza el tema de las tablas</h1>
+        <th>Gato 1</th>
+        <th>Gato 2</th>
+        <th>Gato 3</th>
+        <tr>
+            <td>400 pesos</td>
+            <td>500 pesos</td>
+            <td>600 pesos</td>
+        </tr>
+    </table>
+    <br>
+    <!--
+        Cellspacing:Especificar espacio entre celdas
+        cellpadding: Espacio adentro de la celda
+        colspan: Esta propiedad especifica el numero de columnas que 
+        ocupa una celda
+        rowspan: mismo que el colspan pero con row
+    -->
+    <h2>Segunda table</h2>
+    <h3 id="tabla">Animales</h3>
+    <table align="center" cellspacing="2" cellpadding="2" border="5" bgcolor="dddddd">
+        <tr>
+            <td colspan="4" align="center" bgcolor="666666">
+                <font color="#FFFFFF"><strong>Animales en peligro de extinción</strong></font>
+            </td>
+        </tr>
+        <tr bgcolor="aaaaaa">
+            <td>Nombre</td>
+            <td align="center">Cabezas</td>
+            <td align="center">Previsión 2010</td>
+            <td align="center">Previsión 2020</td>
+        </tr>
+        <tr>
+            <td>Ballena</td>
+            <td align="center">6000</td>
+            <td align="center">4000</td>
+            <td align="center">1500</td>
+        </tr>
+        <tr>
+            <td>Oso Pardo</td>
+            <td align="center">50</td>
+            <td rowspan="2" colspan="2" align="center" bgcolor="red">0</td>
+        </tr>
+        <tr>
+            <td>Lince</td>
+            <td align="center">10</td>
+        </tr>
+        <tr>
+            <td>Tigre</td>
+            <td align="center">300</td>
+            <td colspan="2" align="center">210</td>
+        </tr>
+    </table>
+
+    <h3 id="animales">Animales</h3>
+    <table  id="pag">
+        <tr>
+            <td colspan="2">navBar</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Text</td>
+            <td>imagen1</td>
+            
+        </tr>
+        <tr>
+            <td>img2</td>
+        </tr>
+        <tr>
+            <td colspan="2">footer</td>
+        </tr>
+    </table>
+    <h3 id="modelado">Animales</h3>
+    
+    <h2>Ejercicio tablas</h2>
+    <table id="pag">
+        <tr>
+            <td colspan="5">Barra de navegacion</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4">Texto 1</td>
+            <td colspan="1" rowspan="4">Texto 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">TExto 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Texto 4</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Texto 5
+            </td>
+        </tr>
+        <tr>
+            <td>img1</td>
+            <td>img2</td>
+            <td>img3</td>
+            <td>img4</td>
+            <td>img5</td>
+        </tr>
+        <tr>
+            <td colspan="2">footer1</td>
+            <td colspan="3">footer2</td>
+        </tr>
+
+    </table>
+    <table id="pag">
+        <tr>
+            <td>logo</td>
+            <td colspan="3">Header</td>
+            <td>logo</td>
+        </tr>
+        <tr>
+            <td colspan="5">Barra de navegacion</td>
+        </tr>
+        <tr>
+            <td>Texto</td>
+            <td colspan="3">Imagen</td>
+            <td>TExto</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                texto
+            </td>
+            <td colspan="2">
+                texto
+            </td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>img</td>
+            <td>img</td>
+            <td >footer</td>
+            <td>logo</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h2>Anclas</h2>
+    <a href="#formulario"><button>Mi primero formulario</button></a>
+    <a href="#tabla"><button>Mi primero tabla</button></a>
+    <a href="#animales"><button>animales</button></a>
+    <a href="#modelado"><button>modelado</button></a>
+</body>
+
+</html>
+
+<!--
+        Nos sirve para recopilar info de nuestros usuarios
+        Atributos importantes:
+            -Action: es donde se ba enviar la info
+            -method: es el envio de la info
+        Cuando trabajamos con botones dentro de los formularios
+        debemos usar input dep tipo boton, si trabajaos con botones
+        fuera de el usamos etiqueta boton
+    -->

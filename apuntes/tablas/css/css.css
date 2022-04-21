@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+fieldset {
+    background-color: beige;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    color: black;
+}
+.legend{
+    font-size: x-large;
+    text-align: center;
+
+}
+#tabla{
+    border-style: solid;
+    border-color: black ;
+   margin-top: 10px;
+}
+#pag{
+    margin-top: 15px;
+    border: 5px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+td{
+    border: 5px solid black;
+    text-align: center;
+}

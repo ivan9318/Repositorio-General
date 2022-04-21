@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--Especifica el tipo de documento-->
+<html lang="en">
+<!--Define el lenguaje de la pagina-->
+
+<head>
+    <!--Define el encabezado de la pagina-->
+    <meta charset="UTF-8">
+    <!--Sirve para especificar el tipo de caracteres que se usarán en el documento. UTF-8 es el tipo de caracteres más utilizado (datos de alto nivel) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Sirve para especificar que el navegador se adapte al documento. IE=edge es el navegador más reciente compatible con el documento. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Sirve para especificar el ancho del documento, el tamaño inicial de la pantalla y el zoom. Con esta etiqueta meta se especifica que el ancho del documento es el ancho del dispositivo y el zoom es 1.0. -->
+    <title>Apuntes HTML</title>
+</head>
+
+<body>
+    <h1>Mi Portafolio</h1>
+    <!--El tamaño de un h1 es de 2rem o 16px.-->
+    <h2>Introducción</h2>
+    <!--El tamaño de un h2 es de 1rem o 8px.-->
+    <h3>Este es un texto</h3>
+    <!--El tamaño de un h3 es de 0.875rem o 6px.-->
+    <h4>Este es un texto un poco menos importante</h4> <!-- El tamaño de un h4 es de 0.75rem o 4px.-->
+    <h5>Este es un texto aun menos importante</h5> <!-- El tamño de un h5 es de 0.625rem o 3px.-->
+    <h6>Este es un texto casi sin importancia</h6>
+    <!--El tamaño de un h6 es de 0.5rem o 2px.-->
+    <!--Aqui inician los parrafos-->
+    <p align="left">
+        Lorem ipsum <em> sit amet consectetur </em>adipisicing elit. Necessitatibus, id. Quibusdam sunt voluptas
+        asperiores nam. Explicabo voluptatum quibusdam illo doloribus. Quo, amet cumque rem officiis illum tempora eius
+        magnam alias?
+    </p>
+    <br>
+    <hr>
+    <br>
+    <p align="center">
+        Lorem ipsum <b>dolor sit amet consectetur </b>adipisicing elit. Necessitatibus, id. Quibusdam sunt voluptas
+        asperiores nam. Explicabo voluptatum quibusdam illo doloribus. Quo, amet cumque rem officiis illum tempora eius
+        magnam alias?
+    </p>
+    <br>
+    <hr>
+    <br>
+    <p align="right">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, id. Quibusdam sunt voluptas asperiores
+        nam. Explicabo voluptatum quibusdam illo doloribus. Quo, amet cumque rem officiis illum tempora eius magnam
+        alias?
+    </p>
+    <br>
+    <hr>
+    <br>
+    <p align="justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, id. Quibusdam sunt voluptas asperiores
+        nam. Explicabo voluptatum quibusdam illo doloribus. Quo, amet cumque rem officiis illum tempora eius magnam
+        alias?
+    </p>
+    <br>
+    <a href="/HTLM/introduccion/assets/img/coldplayt.jpg" target="_blank">Este es un enlacea una foto</a>
+    <br>
+    <a href="mailto:ivan.alm99@gmail.com">contactame</a>
+    <br>
+    <a href="/HTLM/introduccion/assets/img/coldplayt.jpg" download>Descarga imagen</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=ML2ebErcTZ4">la rocio </a>
+    <br>
+    <h3>Especies de pokemn</h3>
+    <ol type="a" start="6">
+        <li>torchit</li>
+        <li>pikachu</li>
+        <li>bulbasor</li>
+        <li>bobafet</li>
+    </ol>
+    <ol type="1" start="6">
+        <li>torchit</li>
+        <li>pikachu</li>
+        <li>bulbasor</li>
+        <li>bobafet</li>
+    </ol>
+    <ol type="A" start="6">
+        <li>torchit</li>
+        <li>pikachu</li>
+        <li>bulbasor</li>
+        <li>bobafet</li>
+    </ol>
+    <ol type="i" start="6">
+        <li>torchit</li>
+        <li>pikachu</li>
+        <li>bulbasor</li>
+        <li>bobafet</li>
+    </ol>
+    <ol type="I" start="6">
+        <li>torchit</li>
+        <li>pikachu</li>
+        <li>bulbasor</li>
+        <li>bobafet</li>
+    </ol>
+    <h3>Lista desordenadad</h3>
+    <ul type="square">
+        <li>torchit</li>
+        <li>pikachu</li>
+        <li>bulbasor</li>
+        <li>bobafet</li>
+    </ul>
+    <h3>listas de diccionarios</h3>
+    <dl>
+        <dt>Gato</dt>
+        <dd>Animal de 4 patos que dice miau</dd>
+        <dt>Perro</dt>
+        <dd>Animal de 4 patas que dice guau</dd>
+    </dl>
+    <br>
+    <h3>imagenes</h3>
+    <img src="/HTLM/introduccion/assets/img/coldplayt.jpg" alt="besto banda pop" width="250" height="250">
+    <br>
+    <h3>Trabajo con divs y spam</h3>
+    <div align="center" style="background-color: aqua;">
+        <img src="/HTLM/introduccion/assets/img/coldplayt.jpg" alt="besto banda pop" width="250" height="250">
+        <p>
+            Este texto nos ayudara a conocer mas sobre los
+        </p>
+    </div>
+    <div align="center" style="border: 10px dotted blue;">
+    <span style="color: brown;">
+        <p>
+            Este texto nos ayudara a conocer mas sobre los span 
+        </p>
+     </span>
+    </div>
+</body>
+
+</html>
+
+<!--
+    Etiquetas para formatear texto: strong, em, u, i, b, blockquote.
+
+    Las etiquetas de texto nos permiten crear texto en negrita, cursiva, subrayado, etc.
+    - blockquote es para poner citas
+    - La etiqueta strong nos permite crear texto en negrita.
+    - La etiqueta em nos permite crear texto en cursiva.
+    - La etiqueta u nos permite crear texto subrayado.
+    - La etiqueta i nos permite crear texto en cursiva.
+    - La etiqueta b nos permite crear texto en negrita.
+    - La etiqueta blockquote nos permite crear un bloque de texto.
+
+    La diferencia entre las etiquetas strong y b es que la etiqueta strong debe utilizarse cuando el texto tiene una fuerte importancia o un sentido de urgencia o seriedad. Las etiquetas b en cambio deben utilizarse para llamar la atencion sobre un tramo de texto sin mayor importancia.
+-->
+<!--
+    Los atributos de las listas ordenadas son:
+        - start: es el atributo que nos permite definir el orden inicial de los elementos de la lista. Por defecto el valor es 1.
+        - type: Nos permite indicar el tipo de lista que se va a crear:
+            - decimal: nos permite crear una lista ordenada con numeros enteros.
+            - lower-alpha: nos permite crear una lista ordenada con letras minusculas.
+            - lower-roman: nos permite crear una lista ordenada con numeros romanos en minusculas.	
+            - upper-alpha: nos permite crear una lista ordenada con letras mayusculas.
+            - upper-roman: nos permite crear una lista ordenada con numeros romanos en mayusculas.
+        - reversed: nos permite invertir el orden de los elementos de la lista.
+
+-->
+<!--
+    - Listas desordenadas: Las listas desordenadas son aquellas que nos sirven para mostrar los elementos sin ningún tipo de orden, simplemente precedidiso por una viñeta que puede ser un punto, un cuadrado, etc.
+        - style: nos permite definir el estilo de la lista.
+            - circle: nos permite crear una lista desordenada con viñetas circulares.
+            - disc: nos permite crear una lista desordenada con viñetas de disco.
+            - square: nos permite crear una lista desordenada con viñetas cuadradas.
+
+-->
