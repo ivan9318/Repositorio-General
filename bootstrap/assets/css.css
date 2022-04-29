@@ -1,0 +1,11 @@
+.jumbotron{
+    background-color: white;
+}
+#pokemon{
+    width: 250px;
+    height: 250px;
+    
+}
+.carousel{
+    height: 50px;
+}
