@@ -1,0 +1,10 @@
+let carreritas=['Lucia','Roberto','Maria','Jesus','Andrea','Jose'];
+carreritas.splice(4,1);
+console.log(carreritas);
+carreritas.splice(2,0,'Andrea');
+console.log(carreritas);
+carreritas.splice(1,0,'Cristobal','Fernanda','Armando');
+console.log(carreritas);
+carreritas.unshift('Federico');
+carreritas.pop();
+console.log(carreritas);
