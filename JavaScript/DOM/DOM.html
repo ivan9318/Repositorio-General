@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/DOM/assets/stylesheet.css">
+    <title>Dom</title>
+</head>
+<body>
+    <h1 id="titulo" class="presentacion">Hola generation, estoy aprendiendod a modificar el DOM</h1>
+    <p style="color: blue;"><!--Nodo del tipo element + atributo asociado al nodo del tipo element-->
+        hola a todos <!--Nodo del tipo text-->
+    </p>
+    <p class="parrafito">
+        holi x2
+    </p>
+    <p class="parrafito">
+        holi x3
+    </p>
+    <p class="parrafito">
+        holi x3
+    </p>
+
+    <form>
+        <label>Indicador de cuanto le gustan los chilaquiles verdes a felipe</label>
+        <input type="range" name="chilaquiles" id="nombre" placeholder="nombre">
+    </form>
+ <!--Ejercicio botones on click-->
+    <!--Creamos un header que cambiara de color-->
+    <h1 class="Header1"> Este texto cambiara de color</h1>
+    <!--Creamos un boton con un evento que aplicara el cambio de color-->
+    <!--Este evento esta ligado a una funcion para cambiar de color-->
+    <button onclick="cambiarColor('blue')" class="azul" > cambiar azul</button> 
+    <button onclick="cambiarColor('red')" class="rojo" > cambiar rojo</button> 
+    <button onclick="cambiarColor('orange')" class="naranja" > cambiar naranja</button> 
+    <button onclick="cambiarColor('green')" class="verde" > cambiar verde</button> 
+   
+    <button onclick="cambiarColor('black')" class="reset" > reset</button>
+   
+
+
+<script src="/DOM/assets/javascript.js"></script>
+</body>
+</html>
